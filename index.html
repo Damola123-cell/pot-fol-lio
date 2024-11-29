@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="Viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-compatible content="ie=edge"> 
+<link rel="icon" type="image/x-icon" href="/images/portifolio.jpg11.png">
+<title>MY PORTIFOLIO</title>  
+
+<!--internal-->
+<style>
+
+html{
+body: 100%    
+}
+
+*{
+padding:0;
+margin:0;
+box-sizing: border-box;
+}
+
+body{
+background-image: linear-gradient(to right, black 0%, black 50%,
+orangered 50%, orangered 100%);
+min-height: 100vh;
+display: :flex;
+justify-content: center;
+text-align: center;
+}
+
+.portifolio{
+text-align: start;
+cursor: pointer;
+}
+
+header{
+background-color: black;
+color: black;
+padding: 20px;
+text-align: end;
+}
+
+header nav a{
+color:black;
+text-decoration: none;
+}
+
+a{
+text-decoration: none;
+color: black; /* black */
+}
+
+nav{
+text-align: end;
+padding-left: 35px;
+}
+
+.image-container{
+position: relative;
+display: flex;
+align-items: center;    
+}
+
+.big-image{
+width: 300px;
+height: auto;
+border-radius: 350%;
+}
+
+.image-text{
+margin-left: 20px; 
+color: white; 
+font-size: 24px;
+font-weight: bold;
+}
+
+.small-image{
+position: absolute;
+top: 20px;
+right: 30px;
+height:auto;
+border-radius: 350%;
+width: 100px;
+text-align: end;   
+}
+
+h2{
+color: orangered; 
+text-align: start;  
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+font-weight: bold;
+font-size: 24px;
+padding-bottom: 5px;
+}
+
+h3{
+color: orangered;
+text-align: start;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+font-size: 14px;
+padding-bottom: 3px;
+}
+
+h4{
+color: orangered;
+text-align: start;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+padding-bottom: 3px;
+}
+
+h5{
+color: orangered;
+text-align: end;
+padding-top: 20px;
+}
+
+p{
+color: orangered; 
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+text-align: start;
+padding-bottom: 3px;
+font-size: 13px;
+}
+
+button{
+color: orangered; 
+background-color: black;
+border-radius: 9px; 
+border-width: 1px;
+color: orange;
+cursor: pointer;
+box-shadow: 6px 7px 8px;
+transition: box-shadow 0,15s;
+vertical-align: auto; 
+font-size: 15px;  
+}
+
+button:active{
+opacity: 0.5,   
+}
+
+button:hover{
+background-color: orange;
+color: orange;
+box-shadow: 10px 10pxscale: 0.5
+}
+
+.gmail{
+color:orangered;
+padding-right: 820px;  
+}
+
+@media screen (max-width: 600px){
+/* for desktop */
+.container{
+display: grid;
+grid-template-coloums: none;
+grid-template-rows: repeat93, 1fr);
+grid-gap: 20px;    
+}
+body{
+background-color: whitesmoke;    
+}    
+}
+
+
+@media only screen and(min-width:600px;){
+/* for tablets: */
+}
+
+@media only screen and (orientation: landscape){
+body{
+background-color: white;    
+}
+}
+
+</style>
+</head>
+
+<body>
+
+<!--header section-->
+<nav>
+<button>
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
+<a href="#">Contract</a>
+</button>  
+</nav>
+
+<div class="portifolio">
+<img src="images/portifolio.jpg11.png" alt="my Portifolio logo">
+</div>
+    
+<div class="image-container">
+<img src="images/portifolio.22.jpg" alt="image"
+class="big-image">
+<div class="text">
+<h2>Hi,</h2> 
+<h3>I'm Damola,</h3> 
+<h4>Front-end web developer.</h3>
+<p>Highly motivated and enthusiastic web developer with a,</p>
+<p>passion for building responsiveness.</p>
+and user-friendly interfaces.</p> 
+<p><button>Hire me</button>    <button>Let's talk</button></p>
+</div> 
+
+
+<div>
+<img src="images/portifolio.22.jpg"  alt="image"
+class="small-image">  
+</div>
+</div>
+
+<main>
+<div class="gmail">
+Kindly email me for Contract's and jobs by clicking on the email button
+<a href="mailto:allidamolaibrahim@gmail.com?Subject=my email"><button>email</button></a>
+</div>
+</main>
+</body>
+</html>
